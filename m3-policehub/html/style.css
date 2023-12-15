@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@500&family=Tajawal:wght@500&display=swap');
+
+body {
+    width: 150%;
+    height: 150%;
+    overflow: hidden;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Tajawal', calibri;
+    color: white;
+}
+
+* {
+    user-select: none;
+}
+
+.app {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 7%;
+    width: 13%;
+    height: auto;
+    background-color:#37373600;
+}
+
+.title {
+    padding: -52%;
+    border-bottom: #e23355 solid 4px;
+    background-color: #222223;
+}
+.title h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.6vh;
+    padding-left: 6.5vh;
+  padding-top: 1.2vh;
+}
+.officers {
+    width: 100%;
+    height: auto;
+    padding-bottom: 0.2%;
+    margin-bottom: 0.5%;
+    background-color:#373637e7;
+}
+
+.officer {
+    font-size: 1.2vh;
+    padding: 1.4%;
+    margin-left: 1%;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+}
+
+.officers .callsign {
+    font-size: 1.2vh;
+    padding: 1.4%;
+    border-radius: 3px;
+    margin-left: 1%;
+    color: #e23355;
+}
+
+.officers .callsign-command {
+    font-size: 1.2vh;
+    padding: 1.4%;
+    border-radius: 3px;
+    margin-left: 1%;
+}
+
+.officers .callsign-swat {
+    font-size: 1.2vh;
+    padding: 1.4%;
+    border-radius: 3px;
+    margin-left: 1%;
+}
+
+.officers .callsign-rangers {
+    font-size: 1.2vh;
+    padding: 1.4%;
+    border-radius: 3px;
+    margin-left: 1%;
+}
+
+.officers .callsign-bcso {
+    font-size: 1.2vh;
+    padding: 1.4%;
+    border-radius: 3px;
+    margin-left: 1%;
+}
+
+.officers .callsign-troopers {
+    font-size: 1.2vh;
+    padding: 1.4%;
+    border-radius: 3px;
+    margin-left: 1%;
+}
+
+.officers .callsign-detective {
+    font-size: 1.2vh;
+    padding: 1.4%;
+    border-radius: 3px;
+    margin-left: 1%;
+}
+
+.officers .name {
+    margin-left: 1%;
+}
+
+.duty {
+    color: rgb(26, 213, 42);
+}
+
+.offduty {
+    color:rgb(222, 222, 222);
+}
+
+.radio {
+    color:rgb(255,255,255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
